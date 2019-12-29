@@ -11,3 +11,37 @@ homeassistant:
     sensor.dark_sky_*:
       homebridge_hidden: true
   packages: !include_dir_named packages
+  auth_providers:
+    - type: homeassistant
+    - type: trusted_networks:
+      trusted_networks:
+        - 192.168.1.0/24
+
+system_health:
+config:
+cloud:
+frontend:
+  javascript_version: latest
+discovery:
+updater:
+  include_used_components: true
+sun:
+zeroconf:
+
+# Config files
+history: !include config/configs/history.yaml
+hue: !include config/configs/hue.yaml
+logger: !include config/configs/logger.yaml
+recorder: !include config/configs/recorder.yaml
+tts: !include config/configs/tts.yaml
+weather: !include config/configs/weather.yaml
+
+group: !include_dir_merge_named config/group
+device_tracker: !include_dir_merge_list config/device_tracker
+sensor: !include_dir_merge_list config/sensor
+automation: !include_dir_merge_list config/automation
+scene: !include_dir_merge_list config/scene
+switch: !include_dir_merge_list config/switch
+script: !include_dir_merge_named config/script
+input_boolean: !include_dir_merge_named config/input_boolean
+shell_command: !include_dir_merge_named config/shell_command
