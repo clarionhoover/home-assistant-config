@@ -27,10 +27,13 @@ updater:
   include_used_components: true
 sun:
 zeroconf:
+ifttt:
+  key: !secret ifttt_key
 
 # Config files
 history: !include config/configs/history.yaml
 hue: !include config/configs/hue.yaml
+logbook: !include config/configs/logbook.yaml
 logger: !include config/configs/logger.yaml
 recorder: !include config/configs/recorder.yaml
 tts: !include config/configs/tts.yaml

@@ -1,0 +1,15 @@
+include:
+  domains:
+    - sensor
+    - switch
+    - media_player
+    - light
+    - binary_sensor
+    - cover
+
+  exclude:
+    - sensor.last_boot
+    - sensor.date
+    - sensor.last_boot_templated
+    - sensor.ha_uptime
+    - sensor.time

@@ -1,0 +1,7 @@
+exclude:
+  entities:
+    - sensor.last_boot
+    - sensor.last_boot_templated
+    - sensor.time
+    - sensor.date
+    - sensor.ha_uptime
