@@ -2,7 +2,7 @@
 homeassistant:
   name: !secret homeassistant_name
   latitude: !secret homeassistant_latitude
-  longitude: !secret homeassisant_longitude
+  longitude: !secret homeassistant_longitude
   unit_system: imperial
   time_zone: America/New_York
   customize: !include_dir_merge_named customize
