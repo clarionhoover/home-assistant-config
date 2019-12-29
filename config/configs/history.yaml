@@ -8,7 +8,8 @@ include:
     - binary_sensor
     - cover
 
-  exclude:
+exclude:
+  entities:
     - sensor.last_boot
     - sensor.date
     - sensor.last_boot_templated
