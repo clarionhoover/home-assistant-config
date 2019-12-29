@@ -1,3 +1,4 @@
+---
 exclude:
   entities:
     - sensor.last_boot

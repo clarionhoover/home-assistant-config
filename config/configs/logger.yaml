@@ -1,3 +1,4 @@
+---
 default: info
 logs:
   aiohttp.access: critical
