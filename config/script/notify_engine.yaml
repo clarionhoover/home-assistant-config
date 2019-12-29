@@ -11,9 +11,9 @@ notify_engine:
     - service_template: >
           {% if who == 'randy' %}
             notify.ios_miphonex
-          {% if who == 'lyndsey' %}
+          {% elif who == 'lyndsey' %}
             notify.ios_lyndseys_iphone
-          {% if who == 'family' %}
+          {% elif who == 'family' %}
             notify.ios_family
           {% else %}
             notify.ios_family
