@@ -1,1 +1,1 @@
-# home-automation
+# home-assistant-config
