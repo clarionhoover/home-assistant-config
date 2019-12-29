@@ -1,5 +1,5 @@
 ---
 bridges:
-  - host: !secrets hue_hub_ip_1
+  - host: !secret hue_hub_ip_1
     allow_unreachable: true
     allow_hue_groups: true
