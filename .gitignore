@@ -1,3 +1,9 @@
 .storage
-.storage/*
+.cloud
+.google.token
+
 secrets.yaml
+ip_bans.yaml
+known_devices.yaml
+home-assistant.log
+home-assistant_v2.db
