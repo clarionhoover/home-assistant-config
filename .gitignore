@@ -13,3 +13,4 @@ home-assistant_v2.db
 OZW_Log.txt
 pyozw.sqlite
 zwcfg_*.xml
+zigbee.db
