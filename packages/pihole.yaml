@@ -1,0 +1,5 @@
+pihole:
+  host: 'localhost:4865'
+  ssl: false
+  verify_ssl: false
+
