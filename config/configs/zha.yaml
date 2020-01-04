@@ -1,0 +1,3 @@
+---
+usb_path: /dev/ttyUSB1
+database_path: /usr/share/hass/homeassistant/.storage/zigbee.db
