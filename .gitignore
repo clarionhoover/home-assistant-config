@@ -1,10 +1,15 @@
+#folders
 .storage
 .cloud
 .google.token
 
+#files
 secrets.yaml
 ip_bans.yaml
 known_devices.yaml
 home-assistant.log
 home-assistant_v2.db
 .uuid
+OZW_Log.txt
+pyozw.sqlite
+zwcfg_*.xml
