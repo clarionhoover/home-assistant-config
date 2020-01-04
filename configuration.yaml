@@ -41,6 +41,7 @@ recorder: !include config/configs/recorder.yaml
 tts: !include config/configs/tts.yaml
 weather: !include config/configs/weather.yaml
 zha: !include config/configs/zha.yaml
+zwave: !include comfig/configs/zwave.yaml
 
 group: !include_dir_merge_named config/group
 device_tracker: !include_dir_merge_list config/device_tracker
