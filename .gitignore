@@ -2,6 +2,7 @@
 .storage
 .cloud
 .google.token
+glances
 
 #files
 secrets.yaml
