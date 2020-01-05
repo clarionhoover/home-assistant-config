@@ -1,0 +1,15 @@
+---
+- id: auto_bathroom_light_off
+  alias: Auto Turn off bathroom light
+  trigger:
+  - platform: state
+    entity_id: input_boolean.auto_bathroom_light_off
+    to: 'on'
+  - platform: state
+    entity_id: switch.jasco_products_12722_on_off_relay_switch_switch
+    to: 'on'
+    for:
+      minutes: '15'
+action:
+  - service: homeassistant.turn_off
+    entity_id: switch.jasco_products_12722_on_off_relay_switch_switch

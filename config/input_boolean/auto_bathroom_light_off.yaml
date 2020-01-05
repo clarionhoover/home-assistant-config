@@ -1,0 +1,4 @@
+auto_bathroom_light_off:
+  name: Turn of upstairs bathroom light after 20 minutes
+  initial: on
+  icon: mdi:lightbulb
