@@ -40,7 +40,6 @@ logger: !include config/configs/logger.yaml
 recorder: !include config/configs/recorder.yaml
 tts: !include config/configs/tts.yaml
 weather: !include config/configs/weather.yaml
-zha: !include config/configs/zha.yaml
 zwave: !include config/configs/zwave.yaml
 
 group: !include_dir_merge_named config/group
